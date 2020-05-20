@@ -1,0 +1,38 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<oop>true</oop>
+	<script src="garage_server.lua" type="server"/>
+	<script src="util_client.luac" type="client" cache="false"/>
+	<script src="dxlib_client.luac" type="client" cache="false"/>
+	<script src="garage_client.luac" type="client" cache="false"/>
+	<script src="camera_client.luac" type="client" cache="false"/>
+	<script src="tabs/colors.luac" type="client" cache="true"/>
+	<script src="tabs/tints.luac" type="client" cache="true"/>
+	<script src="tabs/wheels.luac" type="client" cache="true"/>
+	<script src="tabs/bodyparts.luac" type="client" cache="true"/>
+	<script src="tabs/stickers.luac" type="client" cache="true"/>
+	<script src="tabs/stickers_catalog.luac" type="client" cache="true"/>
+	<script src="tabs/lights.luac" type="client" cache="true"/>
+	<script src="tabs/overlays.luac" type="client" cache="true"/>
+	<script src="tabs/neons.luac" type="client" cache="true"/>
+	<script src="tabs/rocketcolor.luac" type="client" cache="true"/>
+	<script src="tabs/skins.luac" type="client" cache="true"/>
+	<file src="fx/txReplace.fx"/>
+	<file src="img/dxlib/edge-button.png"/>
+	<file src="img/dxlib/border-button.png"/>
+	<file src="img/dxlib/selector.png"/>
+	<file src="img/dxlib/arrow.png"/>
+	<file src="img/circle.png"/>
+	<file src="img/colors.png"/>
+	<file src="img/wheels.png"/>
+	<file src="img/bodyparts.png"/>
+	<file src="img/stickers.png"/>
+	<file src="img/lights.png"/>
+	<file src="img/overlays.png"/>
+	<file src="img/neons.png"/>
+	<file src="img/weaponvisuals.png"/>
+	<file src="img/skin.png"/>
+	<file src="sfx/ready.wav"/>
+	<export function="movePlayerToArena" type="server"/>
+	<export function="removePlayerFromArena" type="server"/>
+</meta>

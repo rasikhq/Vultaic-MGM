@@ -1,0 +1,5 @@
+<meta>
+	<script src="v_PM.lua" type="server" />
+	<script src="v_PM_client.lua" type="client" cache="false" />
+	<file src="notify.mp3" />
+</meta>

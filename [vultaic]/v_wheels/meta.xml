@@ -1,0 +1,24 @@
+<meta>
+	<script src="wheels_server.lua" type="server"/>
+	<script src="wheels_client.lua" type="client" cache="false"/>
+	<file src="meta.xml"/>
+	<export function="getWheels" type="client"/>
+	<file src="model/wheels.txd"/>
+	<file src="model/wheel_gn1.dff" wheel="true"/>
+	<file src="model/wheel_gn2.dff" wheel="true"/>
+	<file src="model/wheel_gn3.dff" wheel="true"/>
+	<file src="model/wheel_gn4.dff" wheel="true"/>
+	<file src="model/wheel_gn5.dff" wheel="true"/>
+	<file src="model/wheel_lr1.dff" wheel="true"/>
+	<file src="model/wheel_lr2.dff" wheel="true"/>
+	<file src="model/wheel_lr3.dff" wheel="true"/>
+	<file src="model/wheel_lr4.dff" wheel="true"/>
+	<file src="model/wheel_lr5.dff" wheel="true"/>
+	<file src="model/wheel_or1.dff" wheel="true"/>
+	<file src="model/wheel_sr1.dff" wheel="true"/>
+	<file src="model/wheel_sr2.dff" wheel="true"/>
+	<file src="model/wheel_sr3.dff" wheel="true"/>
+	<file src="model/wheel_sr4.dff" wheel="true"/>
+	<file src="model/wheel_sr5.dff" wheel="true"/>
+	<file src="model/wheel_sr6.dff" wheel="true"/>
+</meta>

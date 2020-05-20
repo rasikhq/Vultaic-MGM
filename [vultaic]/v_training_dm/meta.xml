@@ -1,0 +1,18 @@
+<meta>
+	<script src="common.lua" type="shared" cache="false"/>
+	<script src="arena_server.lua" type="server"/>
+	<script src="arena_client.lua" type="client" cache="false"/>
+	<script src="arena_warps.lua" type="server"/>
+	<script src="arena_warps_client.lua" type="client" cache="false"/>
+	<script src="dxlib_client.lua" type="client" cache="false"/>
+	<script src="arena_ui.lua" type="client" cache="false"/>
+	<file src="img/dxlib/edge-button.png"/>
+	<file src="img/dxlib/border-button.png"/>
+	<file src="img/dxlib/selector.png"/>
+	<file src="img/dxlib/arrow.png"/>
+	<file src="fx/txReplace.fx"/>
+	<export function="movePlayerToArena" type="server"/>
+	<export function="removePlayerFromArena" type="server"/>
+	<export function="getPlayersTrainingMap" type="server"/>
+	<oop>true</oop>
+</meta>

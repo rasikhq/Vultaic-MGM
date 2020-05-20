@@ -1,0 +1,12 @@
+<meta>
+	<script src="common.lua" type="shared"/>
+	<script src="toptimes_server.lua" type="server"/>
+	<script src="toptimes_client.lua" type="client" cache="false"/>
+	<file src="img/circle.png"/>
+	<file src="img/default-avatar.png"/>
+	<file src="img/rank.png"/>
+	<file src="img/nickname.png"/>
+	<file src="img/time.png"/>
+	<file src="img/date.png"/>
+	<file src="img/country.png"/>
+</meta>

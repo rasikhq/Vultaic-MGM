@@ -1,0 +1,5 @@
+<meta>
+	<script src="DLogger.lua" type="server"/>
+	<script src="server.lua" type="server"/>
+	<export function="isPlayerDonator" type="server"/>
+</meta>

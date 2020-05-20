@@ -1,0 +1,19 @@
+<meta>
+	<script src="CAccount.lua" type="server"/>
+	<script src="mysql_server.lua" type="server"/>
+	<script src="mysql_client.lua" type="client" cache="false"/>
+	<script src="server_commands.lua" type="server"/>
+	<min_mta_version server="1.4.0"/>
+	<!-- Server exports -->
+	<export function="setPlayerStats" type="server"/>
+	<export function="getPlayerStats" type="server"/>
+	<export function="takePlayerStats" type="server"/>
+	<export function="givePlayerStats" type="server"/>
+		<!-- Server side Tuning stats -->
+		<export function="setPlayerTuningStats" type="server"/>
+		<export function="getPlayerTuningStats" type="server"/>
+	<!-- Client exports -->
+	<export function="getPlayerStats" type="client"/>
+	<export function="getPlayerStats_data" type="client"/>
+	<export function="getPlayerStats_tuning" type="client"/>
+</meta>

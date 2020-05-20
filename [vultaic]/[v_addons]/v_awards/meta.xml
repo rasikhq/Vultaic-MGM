@@ -1,0 +1,4 @@
+<meta>
+	<script src="server.lua" />
+	<export function="getAwards" type="server" />
+</meta>

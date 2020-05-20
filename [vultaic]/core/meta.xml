@@ -1,0 +1,63 @@
+<meta>
+	<min_mta_version client="1.3.0-9.04431"/>
+	<info type="gamemode" name="Multigamemode" author="Mirage & DizzasTeR" version="1.0.0"/>
+	<include resource="mapmanager"/>
+	<include resource="scriptloader"/>
+	<include resource="v_chat"/>
+	<include resource="v_locale"/>
+	<include resource="v_settings"/>
+	<include resource="v_donatorship"/>
+	<include resource="v_mysql"/>
+	<include resource="v_clans"/>
+	<include resource="v_achievements"/>
+	<include resource="v_toptimes"/>
+	<include resource="v_shaders"/>
+	<include resource="v_notify"/>
+	<include resource="v_lobby"/>
+	<include resource="v_panel"/>
+	<include resource="v_racehud"/>
+	<include resource="v_scoreboard"/>
+	<include resource="v_radar"/>
+	<include resource="v_avatars"/>
+	<include resource="v_deathlist"/>
+	<include resource="v_dm"/>
+	<include resource="v_os"/>
+	<include resource="v_dd"/>
+	<include resource="v_fdd"/>
+	<include resource="v_race"/>
+	<include resource="v_shooter"/>
+	<include resource="v_shooter_jump"/>
+	<include resource="v_hunter"/>
+	<include resource="v_training_dm"/>
+	<include resource="v_training_race"/>
+	<include resource="v_tdm"/>
+	<include resource="v_tuning"/>
+	<include resource="v_body"/>
+	<include resource="v_paint"/>
+	<include resource="v_wheels"/>
+	<include resource="v_overlays"/>
+	<include resource="v_lights"/>
+	<include resource="v_neons"/>
+	<include resource="v_garage"/>
+	<!-- Scripts -->
+	<script src="common.lua" type="client" cache="false"/>
+	<script src="core_server.lua" type="server"/>
+	<script src="lobby_server.lua" type="server"/>
+	<script src="core_client.lua" type="client" cache="false"/>
+	<!-- Exported functions -->
+	<export function="registerArena" type="server"/>
+	<export function="refreshMaps" type="server"/>
+	<export function="getMapsCompatibleWithGamemode" type="server"/>
+	<export function="isMapCompatibleWithGamemode" type="server"/>
+	<export function="sendPlayerToLobby" type="server"/>
+	<export function="getPlayerFromID" type="server"/>
+	<export function="getClientArena" type="client"/>
+	<export function="getPlayerArena" type="client"/>
+	<export function="getClientArenaData" type="client"/>
+	<export function="getClientArenaPlayers" type="client"/>
+	<export function="getClientArenaVehicles" type="client"/>
+	<export function="startSpectating" type="client"/>
+	<export function="stopSpectating" type="client"/>
+	<export function="forcedStopSpectating" type="client"/>
+	<export function="setGhostmodeEnabled" type="client"/>
+</meta>

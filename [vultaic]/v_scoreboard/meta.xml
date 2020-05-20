@@ -1,0 +1,16 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<script src="scoreboard_server.lua" type="server"/>
+	<script src="scoreboard_client.lua" type="client" cache="false"/>
+	<file src="img/logo-mini.png"/>
+	<file src="img/seperator.png"/>
+	<file src="img/donator.png"/>
+	<file src="img/stream.png"/>
+	<file src="img/nickname.png"/>
+	<file src="img/state.png"/>
+	<file src="img/country.png"/>
+	<file src="img/money.png"/>
+	<file src="img/points.png"/>
+	
+	<file src="img/[admin_img]/icon.png" />
+</meta>

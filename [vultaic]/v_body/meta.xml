@@ -1,0 +1,7 @@
+<meta>
+	<!--<script src="encrypt.lua" type="server"/>-->
+	<script src="bodyparts_server.lua" type="server"/>
+	<script src="bodyparts_client.lua" type="client" cache="false"/>
+	<file src="model/infernus.txd.c"/>
+	<file src="model/infernus.dff.c"/>
+</meta>

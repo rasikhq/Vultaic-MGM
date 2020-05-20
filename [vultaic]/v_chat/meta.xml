@@ -1,0 +1,6 @@
+<meta>
+	<script src="chat_server.lua" type="server"/>
+	<script src="languages_server.lua" type="server"/>
+	<script src="util.lua" type="shared"/>
+	<export function="isPlayerIgnoring" type="server" />
+</meta>

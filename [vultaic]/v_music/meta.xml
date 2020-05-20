@@ -1,0 +1,6 @@
+<meta>
+	<script src="music_server.lua"/>
+	<script src="music_client.lua" type="client" cache="false"/>
+	<script src="switch_client.lua" type="client" cache="false"/>
+	<file src="img/music.png"/>
+</meta>

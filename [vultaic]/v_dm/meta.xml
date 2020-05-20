@@ -1,0 +1,16 @@
+<meta>
+	<script src="common.lua" type="shared" cache="false"/>
+	<script src="arena_stats_server.lua" type="server"/>
+	<script src="arena_server.lua" type="server"/>
+	<script src="arena_client.lua" type="client" cache="false"/>
+	<script src="training_server.lua" type="server"/>
+	<script src="training_client.lua" type="client" cache="false"/>
+	<script src="spawnchanger_client.lua" type="client" cache="false"/>
+	<!-- Event -->
+	<script src="arena_event.lua" type="server"/>
+	<script src="arena_event_client.lua" type="client" cache="false"/>
+	<!-- Exports -->
+	<export function="movePlayerToArena" type="server"/>
+	<export function="removePlayerFromArena" type="server"/>
+	<export function="setNextMap" type="server"/>
+</meta>

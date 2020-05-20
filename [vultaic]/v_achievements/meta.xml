@@ -1,0 +1,11 @@
+<meta>
+	<info author="DizzasTeR" />
+	<script src="CAchievements.lua" />
+	<script src="achievements_s.lua" />
+	<script src="achievements_c.lua" type="client" cache="false" />
+	<file src="img/edge.png"/>
+	<file src="img/unlock.png"/>
+	<file src="sfx/unlock.wav"/>
+	<!-- Exports -->
+	<export function="getPlayerAchievements" type="client" />
+</meta>

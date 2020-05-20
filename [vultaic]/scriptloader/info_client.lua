@@ -1,0 +1,1 @@
+CACHE_DIRECTORY = "http://164.132.114.156:8080/devresourcecache/"

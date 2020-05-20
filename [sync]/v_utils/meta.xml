@@ -1,0 +1,9 @@
+<meta>
+    <script src="sync_shared.lua" type="shared"/>
+    <script src="sync_server.lua" type="server"/>
+    <script src="sync_client.lua" type="client"/>
+    <export function="getArenaData" type="server"/>
+    <export function="setArenaData" type="server"/>
+    <export function="getArenaData" type="client"/>
+    <export function="setArenaData" type="client"/>
+</meta>

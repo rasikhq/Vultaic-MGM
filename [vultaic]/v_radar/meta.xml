@@ -1,0 +1,17 @@
+<meta>
+	<script src="radar_client.lua" type="client" cache="false"/>
+	<file src="fx/hud-mask.fx"/>
+	<file src="fx/tex_matrix.fx"/>
+	<file src="fx/circle.fx"/>
+	<file src="img/radar-background.png"/>
+	<file src="img/map.jpg"/>
+	<file src="img/blips/blip-local.png"/>
+	<file src="img/blips/blip-north.png"/>
+	<file src="img/blips/blip-player.png"/>
+	<file src="img/blips/blip-up.png"/>
+	<file src="img/blips/blip-down.png"/>
+	<file src="img/blips/blip-checkpoint.png"/>
+	<file src="img/health-circle.png"/>
+	<export function="setRadarVisible" type="client"/>
+	<export function="setRadarOffset" type="client"/>
+</meta>

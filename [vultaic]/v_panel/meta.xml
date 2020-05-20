@@ -1,0 +1,38 @@
+<meta>
+	<script src="common.lua" type="server"/>
+	<script src="panel_server.lua" type="server"/>
+	<script src="util_client.lua" type="client" cache="false"/>
+	<script src="dxlib_client.lua" type="client" cache="false"/>
+	<script src="panel_client.lua" type="client" cache="false"/>
+	<!-- Tabs -->
+	<script src="tabs/maps_server.lua" type="server"/>
+	<script src="tabs/statistics_client.lua" type="client"/>
+	<script src="tabs/statistics_player_client.lua" type="client"/>
+	<script src="tabs/clans_client.lua" type="client"/>
+	<script src="tabs/clans_overview_client.lua" type="client"/>
+	<script src="tabs/clans_registration_client.lua" type="client"/>
+	<script src="tabs/clans_administration_client.lua" type="client"/>
+	<script src="tabs/maps_client.lua" type="client"/>
+	<script src="tabs/achievements_client.lua" type="client"/>
+	<script src="tabs/settings_client.lua" type="client"/>
+	<script src="tabs/help_client.lua" type="client"/>
+	<script src="tabs/help_details_client.lua" type="client"/>
+	<!-- Shaders -->
+	<file src="fx/txReplace.fx"/>
+	<file src="fx/blur.fx"/>
+	<file src="fx/mask.fx"/>
+	<file src="fx/tex_matrix.fx"/>
+	<!-- Images -->
+	<file src="img/dxlib/edge-button.png"/>
+	<file src="img/dxlib/border-button.png"/>
+	<file src="img/dxlib/selector.png"/>
+	<file src="img/dxlib/arrow.png"/>
+	<file src="img/dxlib/check.png"/>
+	<file src="img/circle.png"/>
+	<file src="img/highlight.png"/>
+	<file src="img/info.png"/>
+	<file src="img/completed.png"/>
+	<file src="img/uncompleted.png"/>
+	<file src="img/badges/beta_tester.png"/>
+	<file src="img/badges/donator.png"/>
+</meta>

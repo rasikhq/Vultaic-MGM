@@ -1,0 +1,10 @@
+<meta>
+	<script src="common.lua" type="shared" cache="false"/>
+	<script src="arena_stats_server.lua" type="server"/>
+	<script src="arena_server.lua" type="server"/>
+	<script src="arena_client.lua" type="client" cache="false"/>
+	<!--<script src="antikmz_client.lua" type="client" cache="true"/>-->
+	<export function="movePlayerToArena" type="server"/>
+	<export function="removePlayerFromArena" type="server"/>
+	<export function="setNextMap" type="server"/>
+</meta>

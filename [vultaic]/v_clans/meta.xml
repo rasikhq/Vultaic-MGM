@@ -1,0 +1,12 @@
+<meta>
+	<script src="DLogger.lua" type="server"/>
+	<script src="CClan.lua" type="server"/>
+	<script src="clan_server.lua" type="server"/>
+	<script src="clan_client.lua" type="client" cache="false"/>
+	<script src="server_commands.lua" type="server"/>
+	<!-- Exports -->
+	<export function="getClan" type="server"/>
+	<export function="createClanwarRequest" type="server"/>
+	<export function="getRegisteredClans" type="client"/>
+	<min_mta_version server="1.4.0"/>
+</meta>

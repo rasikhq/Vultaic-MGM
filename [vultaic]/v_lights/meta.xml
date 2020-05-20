@@ -1,0 +1,46 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<script src="lights_server.lua" type="server"/>
+	<script src="lights_client.lua" type="client" cache="false"/>
+	<file src="fx/lights.fx"/>
+	<file src="fx/mta-helper.fx"/>
+	<file src="fx/dynamic1.fx" dynamic="1"/>
+	<file src="fx/dynamic2.fx" dynamic="1"/>
+	<file src="fx/dynamic3.fx" dynamic="1"/>
+	<file src="fx/dynamic4.fx" dynamic="1"/>
+	<file src="fx/dynamic5.fx" dynamic="1"/>
+	<file src="fx/dynamic6.fx" dynamic="1"/>
+	<file src="meta.xml"/>
+	<export function="getLightTextures" type="client"/>
+	<export function="getDynamicLightTextures" type="client"/>
+	<file src="img/Stripes.png" light="1"/>
+	<file src="img/S6.png" light="1"/>
+	<file src="img/Stripes 2.png" light="1"/>
+	<file src="img/S Class 2.png" light="1"/>
+	<file src="img/Wings.png" light="1"/>
+	<file src="img/Wizard.png" light="1"/>
+	<file src="img/X1.png" light="1"/>
+	<file src="img/X3.png" light="1"/>
+	<file src="img/Formez.png" light="1"/>
+	<file src="img/Mercy.png" light="1"/>
+	<file src="img/A250.png" light="1"/>
+	<file src="img/Jaguar.png" light="1"/>
+	<file src="img/Leon.png" light="1"/>
+	<file src="img/Audi A1.png" light="1"/>
+	<file src="img/M3.png" light="1"/>
+	<file src="img/Spur.png" light="1"/>
+	<file src="img/Romey.png" light="1"/>
+	<file src="img/S Class.png" light="1"/>
+	<file src="img/Flamenzo.png" light="1"/>
+	<file src="img/Infinity.png" light="1"/>
+	<file src="img/Leopard.png" light="1"/>
+	<file src="img/Maxz.png" light="1"/>
+	<file src="img/Chain.png" light="1"/>
+	<file src="img/BMW.png" light="1"/>
+	<file src="img/Bite.png" light="1"/>
+	<file src="img/Panther.png" light="1"/>
+	<file src="img/Zed 5.png" light="1"/>
+	<file src="img/Xpe.png" light="1"/>
+	<file src="img/Vixar.png" light="1"/>
+	<file src="img/Viper.png" light="1"/>
+</meta>

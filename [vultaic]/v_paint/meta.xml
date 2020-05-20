@@ -1,0 +1,381 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<script src="util_server.lua" type="server"/>
+	<script src="paint_server.lua" type="server"/>
+	<script src="paint_client.lua" type="client" cache="false"/>
+	<file src="fx/replace.fx"/>
+	<file src="meta.xml"/>
+	<export function="getStickers" type="client"/>
+	<!-- Stickers -->
+	<file src="img/rectangle.png" sticker="1"/>
+	<file src="img/hand.png" sticker="1"/>
+	<file src="img/thugglasses.png" sticker="1"/>
+	<file src="img/youtube.png" category="Brands and logos" sticker="1"/>
+	<file src="img/crown.png" sticker="1"/>
+	<file src="img/dick.png" sticker="1"/>
+	<file src="img/vultaic.png" category="Clans" sticker="1"/>
+	<file src="img/lacia7m.png" category="Clans" sticker="1"/>
+	<file src="img/resized1.png" sticker="1"/>
+	<file src="img/resized2.png" sticker="1"/>
+	<file src="img/resized3.png" sticker="1"/>
+	<file src="img/kappa.png" sticker="1"/>
+	<file src="img/csgo1.png" sticker="1"/>
+	<file src="img/csgo2.png" sticker="1"/>
+	<file src="img/csgo3.png" sticker="1"/>
+	<file src="img/cover1.png" sticker="1"/>
+	<file src="img/6s.png" category="Clans" sticker="1"/>
+	<file src="img/projectbeast.png" category="Clans" sticker="1"/>
+	<file src="img/devrem.png" category="Clans" sticker="1"/>
+	<file src="img/epg.png" category="Clans" sticker="1"/>
+	<file src="img/facebook.png" category="Brands and logos" sticker="1"/>
+	<file src="img/foxx.png" category="Clans" sticker="1"/>
+	<file src="img/lambologo.png" category="Brands and logos" sticker="1"/>
+	<file src="img/lambotext.png" category="Brands and logos" sticker="1"/>
+	<file src="img/tc.png" category="Clans" sticker="1"/>
+	<file src="img/tg.png" category="Clans" sticker="1"/>
+	<file src="img/twitter.png" category="Brands and logos" sticker="1"/>
+	<file src="img/youtube2.png" category="Brands and logos" sticker="1"/>
+	<file src="img/vultaic2.png" sticker="1"/>
+	<file src="img/intel.png" category="Brands and logos" sticker="1"/>
+	<file src="img/amd.png" category="Brands and logos" sticker="1"/>
+	<file src="img/smiley.png" sticker="1"/>
+	<file src="img/nvidia.png" category="Brands and logos" sticker="1"/>
+	<file src="img/adidas.png" category="Brands and logos" sticker="1"/>
+	<file src="img/apple.png" category="Brands and logos" sticker="1"/>
+	<file src="img/dc.png" category="Brands and logos" sticker="1"/>
+	<file src="img/bmw.png" category="Brands and logos" sticker="1"/>
+	<file src="img/puma.png" category="Brands and logos" sticker="1"/>
+	<file src="img/ua.png" category="Brands and logos" sticker="1"/>
+	<file src="img/ferrari2.png" category="Brands and logos" sticker="1"/>
+	<file src="img/nike.png" category="Brands and logos" sticker="1"/>
+	<file src="img/nissan.png" category="Brands and logos" sticker="1"/>
+	<file src="img/hoonigan.png" category="Brands and logos" sticker="1"/>
+	<file src="img/koenigsegg.png" category="Brands and logos" sticker="1"/>
+	<file src="img/ferrari.png" category="Brands and logos" sticker="1"/>
+	<file src="img/mclaren.png" category="Brands and logos" sticker="1"/>
+	<file src="img/samsung.png" category="Brands and logos" sticker="1"/>
+	<file src="img/discord.png" category="Brands and logos" sticker="1"/>
+	<file src="img/rb.png" category="Brands and logos" sticker="1"/>
+	<file src="img/cocacola.png" category="Brands and logos" sticker="1"/>
+	<file src="img/lb.png" category="Brands and logos" sticker="1"/>
+	<file src="img/mcd.png" category="Brands and logos" sticker="1"/>
+	<file src="img/starb.png" category="Brands and logos" sticker="1"/>
+	<file src="img/ps.png" category="Brands and logos" sticker="1"/>
+	<file src="img/pepsi.png" category="Brands and logos" sticker="1"/>
+	<file src="img/vw.png" category="Brands and logos" sticker="1"/>
+	<file src="img/xbox.png" category="Brands and logos" sticker="1"/>
+	<file src="img/uplay.png" category="Brands and logos" sticker="1"/>
+	<file src="img/origin.png" category="Brands and logos" sticker="1"/>
+	<file src="img/bk.png" category="Brands and logos" sticker="1"/>
+	<file src="img/microsoft.png" category="Brands and logos" sticker="1"/>
+	<file src="img/steam.png" category="Brands and logos" sticker="1"/>
+	<file src="img/sony.png" category="Brands and logos" sticker="1"/>
+	<file src="img/google.png" category="Brands and logos" sticker="1"/>
+	<file src="img/skype.png" category="Brands and logos" sticker="1"/>
+	<file src="img/durex.png" category="Brands and logos" sticker="1"/>
+	<file src="img/speedhunters.png" category="Brands and logos" sticker="1"/>
+	<file src="img/laciamonster.png" category="Brands and logos" sticker="1"/>
+	<file src="img/gotr1.png" category="Films and series" sticker="1"/>
+	<file src="img/gotr2.png" category="Films and series" sticker="1"/>
+	<file src="img/twd.png" category="Films and series" sticker="1"/>
+	<file src="img/got.png" category="Films and series" sticker="1"/>
+	<file src="img/stark.png" category="Films and series" sticker="1"/>
+	<file src="img/arrowss.png" sticker="1"/>
+	<file src="img/batman.png" sticker="1"/>
+	<file src="img/doghead.png" sticker="1"/>
+	<file src="img/dragon.png" sticker="1"/>
+	<file src="img/dragon2.png" sticker="1"/>
+	<file src="img/dragonhead.png" sticker="1"/>
+	<file src="img/fist.png" sticker="1"/>
+	<file src="img/kindaflower.png" sticker="1"/>
+	<file src="img/lightning.png" sticker="1"/>
+	<file src="img/LMQ1.png" sticker="1"/>
+	<file src="img/LMQ2.png" sticker="1"/>
+	<file src="img/LMQ3.png" sticker="1"/>
+	<file src="img/randomshapee.png" sticker="1"/>
+	<file src="img/randomshapee2.png" sticker="1"/>
+	<file src="img/randomshapee3.png" sticker="1"/>
+	<file src="img/randomshapee4.png" sticker="1"/>
+	<file src="img/skullwings.png" sticker="1"/>
+	<file src="img/someshape1.png" sticker="1"/>
+	<file src="img/someshape2.png" sticker="1"/>
+	<file src="img/tamamland1.png" sticker="1"/>
+	<file src="img/tamamland2.png" sticker="1"/>
+	<file src="img/tamamland3.png" sticker="1"/>
+	<file src="img/tamamland4.png" sticker="1"/>
+	<file src="img/tamamland5.png" sticker="1"/>
+	<file src="img/thunderbolt.png" sticker="1"/>
+	<file src="img/carslogo.png" sticker="1"/>
+	<file src="img/ramsyylogo.png" sticker="1"/>
+	<file src="img/tattoo2.png" sticker="1"/>
+	<file src="img/crown1.png" sticker="1"/>
+	<file src="img/ornament3.png" sticker="1"/>
+	<file src="img/knifeparty.png" sticker="1"/>
+	<file src="img/ornament1.png" sticker="1"/>
+	<file src="img/ornament2.png" sticker="1"/>
+	<file src="img/ornament4.png" sticker="1"/>
+	<file src="img/ornament5.png" sticker="1"/>
+	<file src="img/tattoo1.png" sticker="1"/>
+	<file src="img/wolftattoo.png" sticker="1"/>
+	<file src="img/tattoo3.png" sticker="1"/>
+	<file src="img/apparel.png" sticker="1"/>
+	<file src="img/cowboy.png" sticker="1"/>
+	<file src="img/devil.png" sticker="1"/>
+	<file src="img/exertus.png" sticker="1"/>
+	<file src="img/fortnite.png" category="Brands and logos" sticker="1"/>
+	<file src="img/gradient.png" sticker="1"/>
+	<file src="img/grungecircle.png" sticker="1"/>
+	<file src="img/hexagon.png" sticker="1"/>
+	<file src="img/hexagon2.png" sticker="1"/>
+	<file src="img/mortality.png" category="Brands and logos" sticker="1"/>
+	<file src="img/rockhand.png" sticker="1"/>
+	<file src="img/skull.png" sticker="1"/>
+	<file src="img/splash.png" sticker="1"/>
+	<file src="img/splasheagle.png" sticker="1"/>
+	<file src="img/xprlogo.png" category="Clans" sticker="1"/>
+	<file src="img/xnlogo.png" category="Clans" sticker="1"/>
+	<file src="img/7mlogo.png" category="Clans" sticker="1"/>
+	<file src="img/uplogo.png" category="Clans" sticker="1"/>
+	<file src="img/stickerbomb.png" sticker="1"/>
+	<file src="img/stickerbomb2.png" sticker="1"/>
+	<file src="img/star.png" sticker="1"/>
+	<file src="img/9gag.png" category="Brands and logos" sticker="1"/>
+	<file src="img/agent.png" category="Films and series" sticker="1"/>
+	<file src="img/arrowdown.png" sticker="1"/>
+	<file src="img/arrows.png" sticker="1"/>
+	<file src="img/assassinscreed.png" sticker="1"/>
+	<file src="img/babyincar.png" sticker="1"/>
+	<file src="img/badge1.png" sticker="1"/>
+	<file src="img/banana.png" sticker="1"/>
+	<file src="img/bat.png" sticker="1"/>
+	<file src="img/blackhearts.png" sticker="1"/>
+	<file src="img/bride.png" category="Brands and logos" sticker="1"/>
+	<file src="img/circle.png" sticker="1"/>
+	<file src="img/circle3.png" sticker="1"/>
+	<file src="img/curve.png" sticker="1"/>
+	<file src="img/curve2.png" sticker="1"/>
+	<file src="img/decal1.png" sticker="1"/>
+	<file src="img/decal2.png" sticker="1"/>
+	<file src="img/decal3.png" sticker="1"/>
+	<file src="img/decal4.png" sticker="1"/>
+	<file src="img/decal5.png" sticker="1"/>
+	<file src="img/decal6.png" sticker="1"/>
+	<file src="img/decal7.png" sticker="1"/>
+	<file src="img/decal8.png" sticker="1"/>
+	<file src="img/deer.png" sticker="1"/>
+	<file src="img/devil1.png" sticker="1"/>
+	<file src="img/Diamond.png" sticker="1"/>
+	<file src="img/digi1.jpg" category="Brands and logos" sticker="1"/>
+	<file src="img/dj2.png" sticker="1"/>
+	<file src="img/dj3.png" sticker="1"/>
+	<file src="img/dj4.png" sticker="1"/>
+	<file src="img/dj5.png" sticker="1"/>
+	<file src="img/dj6.png" sticker="1"/>
+	<file src="img/dlf1.png" sticker="1"/>
+	<file src="img/dlf2.png" sticker="1"/>
+	<file src="img/dlf3.png" sticker="1"/>
+	<file src="img/dlf4.png" sticker="1"/>
+	<file src="img/dlf7.png" sticker="1"/>
+	<file src="img/dlf8.png" sticker="1"/>
+	<file src="img/dlf10.png" sticker="1"/>
+	<file src="img/dlf12.png" sticker="1"/>
+	<file src="img/dlf13.png" sticker="1"/>
+	<file src="img/dlf14.png" sticker="1"/>
+	<file src="img/dlf15.png" sticker="1"/>
+	<file src="img/dlf16.png" sticker="1"/>
+	<file src="img/dlf17.png" sticker="1"/>
+	<file src="img/dlf18.png" sticker="1"/>
+	<file src="img/dlf19.png" sticker="1"/>
+	<file src="img/dragon3.png" sticker="1"/>
+	<file src="img/dubstep.png" category="Brands and logos" sticker="1"/>
+	<file src="img/eagle.png" sticker="1"/>
+	<file src="img/eye.png" sticker="1"/>
+	<file src="img/eyes.png" sticker="1"/>
+	<file src="img/face.png" sticker="1"/>
+	<file src="img/flame1.png" sticker="1"/>
+	<file src="img/flame2.png" sticker="1"/>
+	<file src="img/flower1.png" sticker="1"/>
+	<file src="img/flowers.png" sticker="1"/>
+	<file src="img/ghost.png" sticker="1"/>
+	<file src="img/goku.png" sticker="1"/>
+	<file src="img/grass1.png" sticker="1"/>
+	<file src="img/grass2.png" sticker="1"/>
+	<file src="img/gucci.png" sticker="1"/>
+	<file src="img/hamster.png" sticker="1"/>
+	<file src="img/hand1.png" sticker="1"/>
+	<file src="img/haters.png" sticker="1"/>
+	<file src="img/ice_form.png" sticker="1"/>
+	<file src="img/kings.png" sticker="1"/>
+	<file src="img/legi.png" sticker="1"/>
+	<file src="img/legi1.png" sticker="1"/>
+	<file src="img/legi2.png" sticker="1"/>
+	<file src="img/legi3.png" sticker="1"/>
+	<file src="img/legi4.png" sticker="1"/>
+	<file src="img/legi5.png" sticker="1"/>
+	<file src="img/legi6.png" sticker="1"/>
+	<file src="img/legi7.png" sticker="1"/>
+	<file src="img/legi8.png" sticker="1"/>
+	<file src="img/legi9.png" sticker="1"/>
+	<file src="img/legi10.png" sticker="1"/>
+	<file src="img/legi11.png" sticker="1"/>
+	<file src="img/legi12.png" sticker="1"/>
+	<file src="img/legi13.png" sticker="1"/>
+	<file src="img/legi14.png" sticker="1"/>
+	<file src="img/legi15.png" sticker="1"/>
+	<file src="img/legi16.png" sticker="1"/>
+	<file src="img/lenny.png" sticker="1"/>
+	<file src="img/linedot.png" sticker="1"/>
+	<file src="img/lipton.png" sticker="1"/>
+	<file src="img/logo.png" sticker="1"/>
+	<file src="img/logo1.png" category="Brands and logos" sticker="1"/>
+	<file src="img/mirage1.png" sticker="1"/>
+	<file src="img/mirage3.png" sticker="1"/>
+	<file src="img/mirage5.png" sticker="1"/>
+	<file src="img/mirage6.png" sticker="1"/>
+	<file src="img/mirage8.png" sticker="1"/>
+	<file src="img/mirage9.png" sticker="1"/>
+	<file src="img/mirage10.png" sticker="1"/>
+	<file src="img/mirage12.png" sticker="1"/>
+	<file src="img/mlayer1.png" sticker="1"/>
+	<file src="img/mlayer2.png" sticker="1"/>
+	<file src="img/mlayer3.png" sticker="1"/>
+	<file src="img/mlayer5.png" sticker="1"/>
+	<file src="img/mlayer6.png" sticker="1"/>
+	<file src="img/mlayer7.png" sticker="1"/>
+	<file src="img/mlayer8.png" sticker="1"/>
+	<file src="img/mlayer9.png" sticker="1"/>
+	<file src="img/mlayer10.png" sticker="1"/>
+	<file src="img/momo.png" category="Brands and logos" sticker="1"/>
+	<file src="img/mta.png" category="Brands and logos" sticker="1"/>
+	<file src="img/Music.png" sticker="1"/>
+	<file src="img/Music2.png" sticker="1"/>
+	<file src="img/nfs.png" category="Brands and logos" sticker="1"/>
+	<file src="img/nmls.png" sticker="1"/>
+	<file src="img/nos.png" category="Brands and logos" sticker="1"/>
+	<file src="img/nyancat.png" sticker="1"/>
+	<file src="img/palm.png" sticker="1"/>
+	<file src="img/palm1.png" sticker="1"/>
+	<file src="img/palm2.png" sticker="1"/>
+	<file src="img/palm3.png" sticker="1"/>
+	<file src="img/palm4.png" sticker="1"/>
+	<file src="img/palm5.png" sticker="1"/>
+	<file src="img/patric.png" category="Films and series" sticker="1"/>
+	<file src="img/patric2.png" category="Films and series" sticker="1"/>
+	<file src="img/peek3.png" sticker="1"/>
+	<file src="img/peek4.png" sticker="1"/>
+	<file src="img/peek6.png" sticker="1"/>
+	<file src="img/peek9.png" sticker="1"/>
+	<file src="img/penguin.png" sticker="1"/>
+	<file src="img/potato.png" sticker="1"/>
+	<file src="img/Pumpkin.png" sticker="1"/>
+	<file src="img/random1.png" sticker="1"/>
+	<file src="img/random2.png" sticker="1"/>
+	<file src="img/reflex0.png" sticker="1"/>
+	<file src="img/reflex1.png" sticker="1"/>
+	<file src="img/reflex2.png" category="Films and series" sticker="1"/>
+	<file src="img/reflex4.png" category="Films and series" sticker="1"/>
+	<file src="img/reflex5.png" sticker="1"/>
+	<file src="img/reflex6.png" sticker="1"/>
+	<file src="img/reflex9.png" sticker="1"/>
+	<file src="img/reflex10.png" sticker="1"/>
+	<file src="img/rose1.png" sticker="1"/>
+	<file src="img/scorpions.png" sticker="1"/>
+	<file src="img/scorpions2.png" sticker="1"/>
+	<file src="img/sega.png" category="Brands and logos" sticker="1"/>
+	<file src="img/shadow.png" sticker="1"/>
+	<file src="img/shape1.png" sticker="1"/>
+	<file src="img/shape2.png" sticker="1"/>
+	<file src="img/sk21.png" sticker="1"/>
+	<file src="img/skyline1.png" sticker="1"/>
+	<file src="img/snowflake.png" sticker="1"/>
+	<file src="img/snowflake1.png" sticker="1"/>
+	<file src="img/snowflake2.png" sticker="1"/>
+	<file src="img/spitfire1.png" sticker="1"/>
+	<file src="img/spitfire2.png" sticker="1"/>
+	<file src="img/spitfire3.png" sticker="1"/>
+	<file src="img/spitfire4.png" sticker="1"/>
+	<file src="img/spitfire5.png" sticker="1"/>
+	<file src="img/spitfire6.png" sticker="1"/>
+	<file src="img/spitfire7.png" sticker="1"/>
+	<file src="img/spitfire8.png" sticker="1"/>
+	<file src="img/spitfire10.png" sticker="1"/>
+	<file src="img/splice.png" sticker="1"/>
+	<file src="img/squid.png" sticker="1"/>
+	<file src="img/squirel.png" sticker="1"/>
+	<file src="img/stacks.png" sticker="1"/>
+	<file src="img/star1.png" sticker="1"/>
+	<file src="img/sticker.png" sticker="1"/>
+	<file src="img/stunty1.png" sticker="1"/>
+	<file src="img/stunty2.png" sticker="1"/>
+	<file src="img/stunty4.png" sticker="1"/>
+	<file src="img/stunty5.png" sticker="1"/>
+	<file src="img/subaru1.png" category="Brands and logos" sticker="1"/>
+	<file src="img/symbol1.png" sticker="1"/>
+	<file src="img/thuglife2.png" sticker="1"/>
+	<file src="img/Tree.png" sticker="1"/>
+	<file src="img/tree1.png" sticker="1"/>
+	<file src="img/tremor1.png" sticker="1"/>
+	<file src="img/tremor2.png" sticker="1"/>
+	<file src="img/tremor3.png" sticker="1"/>
+	<file src="img/triangle.png" sticker="1"/>
+	<file src="img/triangle2.png" sticker="1"/>
+	<file src="img/vinyl4.png" sticker="1"/>
+	<file src="img/vinyls45.png" sticker="1"/>
+	<file src="img/vinyls54.png" sticker="1"/>
+	<file src="img/Web.png" sticker="1"/>
+	<file src="img/weed1.png" sticker="1"/>
+	<file src="img/wheel1.png" sticker="1"/>
+	<file src="img/wings.png" sticker="1"/>
+	<file src="img/wings2.png" sticker="1"/>
+	<file src="img/woodland_camo.png" sticker="1"/>
+	<file src="img/xmas4.png" sticker="1"/>
+	<file src="img/yamaha1.png" category="Brands and logos" sticker="1"/>
+	<file src="img/yoko.png" category="Brands and logos" sticker="1"/>
+	<file src="img/zatley.png" sticker="1"/>
+	<file src="img/defqon1.png" sticker="1"/>
+	<file src="img/nTL.png" category="Clans" sticker="1"/>
+	<file src="img/emojiwtf.png" sticker="1"/>
+	<file src="img/emojigut.png" sticker="1"/>
+	<file src="img/emojithinking.png" sticker="1"/>
+	<file src="img/emojibull.png" sticker="1"/>
+	<file src="img/emoji100.png" sticker="1"/>
+	<file src="img/bootje.png" sticker="1"/>
+	<file src="img/bondford_dark.png" category="Brands and logos" sticker="1"/>
+	<file src="img/bondford_light.png" category="Brands and logos" sticker="1"/>
+	<file src="img/shclogo.png" category="Clans" sticker="1"/>
+	<file src="img/aceverso.png" category="Clans" sticker="1"/>
+	<file src="img/aceversoneon.png" category="Clans" sticker="1"/>
+	<file src="img/tfflogo.png" category="Clans" sticker="1"/>
+	<file src="img/laciaapocolypsehorse.png" sticker="1"/>
+	<file src="img/laciaemptybattery.png" sticker="1"/>
+	<file src="img/laciaflower727.png" sticker="1"/>
+	<file src="img/laciajoker.png" sticker="1"/>
+	<file src="img/laciaminionblack.png" sticker="1"/>
+	<file src="img/laciamoon.png" sticker="1"/>
+	<file src="img/laciastarshape.png" sticker="1"/>
+	<file src="img/laciastarshape2.png" sticker="1"/>
+	<file src="img/laciagirlpower.png" sticker="1"/>
+	<file src="img/banana2.png" sticker="1"/>
+	<file src="img/CoeLogo.png" category="Clans" sticker="1"/>
+	<file src="img/LaciaAkame.png" sticker="1"/>
+	<file src="img/LaciaBio.png" sticker="1"/>
+	<file src="img/LaciaBRD.png" sticker="1"/>
+	<file src="img/LaciaCT.png" sticker="1"/>
+	<file src="img/LaciaDuck.png" sticker="1"/>
+	<file src="img/LaciaFuck.png" sticker="1"/>
+	<file src="img/Laciagomen.png" sticker="1"/>
+	<file src="img/LaciaKurumi2.png" sticker="1"/>
+	<file src="img/LaciaKurumi3.png" sticker="1"/>
+	<file src="img/LaciaLion.png" sticker="1"/>
+	<file src="img/LaciaMaika.png" sticker="1"/>
+	<file src="img/LaciaNoSmoke.png" sticker="1"/>
+	<file src="img/LaciaSakura.png" sticker="1"/>
+	<file src="img/LaciaSakura2.png" sticker="1"/>
+	<file src="img/LaciaSakura3.png" sticker="1"/>
+	<file src="img/LaciaShy.png" sticker="1"/>
+	<file src="img/LaciaSkull.png" sticker="1"/>
+	<file src="img/LaciaStar.png" sticker="1"/>
+	<file src="img/MarveL.png" sticker="1"/>
+	<file src="img/ffglogo.png" category="Clans" sticker="1"/>
+	<file src="img/ffglogo2.png" category="Clans" sticker="1"/>
+</meta>

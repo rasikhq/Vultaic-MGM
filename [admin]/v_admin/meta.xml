@@ -1,0 +1,22 @@
+<meta>
+	<!-- pre-process -->
+	<script src="includes/element_utils.lua" />
+	<script src="includes/element_tags.lua" />
+	
+	<!-- Server -->
+	<script src="server.lua" />
+	<script src="commands.lua" />
+	<script src="commands_client.lua" type="client" />
+	
+	<!-- Client --
+	<script src="ui/main_client.lua" type="client" cache="false" />
+	-->
+	<!-- Utils -->
+	<script src="common.lua" type="shared" cache="false" />
+	
+	<!-- Exports Server -->
+	<export function="getCommandLevels" type="server" />
+	<export function="getPlayerTag" type="server" />
+	<!-- Exports Client -->
+	<!-- Files -->
+</meta>

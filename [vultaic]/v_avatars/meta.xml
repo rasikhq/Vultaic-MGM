@@ -1,0 +1,7 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<script src="avatars_server.lua" type="server"/>
+	<script src="avatars_client.lua" type="client" cache="false"/>
+	<file src="img/default-avatar.png"/>
+	<export function="getAvatarTexture" type="client"/>
+</meta>

@@ -1,0 +1,20 @@
+<meta>
+	<script src="lobby_client.lua" type="client" cache="false"/>
+	<file src="fx/txReplace.fx"/>
+	<file src="fx/mask.fx"/>
+	<file src="fx/tex_matrix.fx"/>
+	<file src="fx/circle.fx"/>
+	<file src="img/new.png"/>
+	<file src="img/circle.png"/>
+	<file src="img/default-avatar.png"/>
+	<file src="img/progress-circle.png"/>
+	<file src="img/progress-ring.png"/>
+	<file src="img/dm.png"/>
+	<file src="img/dd.png"/>
+	<file src="img/race.png"/>
+	<file src="img/shooter.png"/>
+	<file src="img/hunter.png"/>
+	<file src="img/training.png"/>
+	<file src="img/tdm.png"/>
+	<file src="img/garage.png"/>
+</meta>

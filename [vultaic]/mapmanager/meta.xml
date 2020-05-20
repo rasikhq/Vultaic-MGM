@@ -1,0 +1,26 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<info type="resource" name="Mapmanager" author="Mirage & DizzasTeR"/>
+	<script src="common.lua" type="shared" cache="false"/>
+	<script src="mapmanager_server.lua" type="server"/>
+	<script src="mapmanager_client.lua" type="client" cache="false"/>
+	<script src="racepickups_server.lua" type="server"/>
+	<script src="racepickups_client.lua" type="client" cache="false"/>
+	<script src="checkpoints_server.lua" type="server"/>
+	<script src="checkpoints_client.lua" type="client" cache="false"/>
+	<file src="model/nitro.dff"/>
+	<file src="model/nitro.txd"/>
+	<file src="model/repair.dff"/>
+	<file src="model/repair.txd"/>
+	<file src="model/vehiclechange.dff"/>
+	<file src="model/vehiclechange.txd"/>
+	<file src="model/garys_luv_ramp.col"/>
+	<export function="loadMapData" type="server"/>
+	<export function="sendMapData" type="server"/>
+	<export function="unloadMapData" type="server"/>
+	<export function="buildMapVehicles" type="server"/>
+	<settings>
+		<setting name="*resourceCacheURL" value="http://host/storage" friendlyname="Storage URL"/>
+        <setting name="*storageURL" value="http://host/resource cache" friendlyname="Client resource cache URL"/>
+	</settings>
+</meta>

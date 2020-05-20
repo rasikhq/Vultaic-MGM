@@ -1,0 +1,51 @@
+<meta>
+	<script src="util_server.lua" type="server"/>
+	<script src="overlays_server.lua" type="server"/>
+	<script src="overlays_client.lua" type="client" cache="false"/>
+	<file src="fx/mta-helper.fx"/>
+	<file src="fx/type1.fx"/>
+	<file src="fx/type2.fx"/>
+	<file src="fx/type3.fx"/>
+	<file src="fx/type4.fx"/>
+	<file src="fx/type5.fx"/>
+	<file src="fx/type6.fx"/>
+	<file src="fx/type7.fx"/>
+	<file src="fx/type8.fx"/>
+	<file src="fx/type9.fx"/>
+	<file src="fx/type10.fx"/>
+	<file src="fx/type11.fx"/>
+	<file src="fx/type12.fx"/>
+	<file src="fx/type13.fx"/>
+	<file src="fx/type14.fx"/>
+	<file src="fx/type15.fx"/>
+	<file src="fx/type16.fx"/>
+	<file src="fx/type17.fx"/>
+	<file src="fx/type18.fx"/>
+	<file src="fx/type19.fx"/>
+	<file src="fx/type20.fx"/>
+	<file src="fx/type21.fx"/>
+	<file src="fx/type22.fx"/>
+	<file src="fx/type23.fx"/>
+	<file src="fx/type24.fx"/>
+	<file src="fx/type25.fx"/>
+	<file src="fx/type26.fx"/>
+	<file src="fx/type27.fx"/>
+	<file src="fx/type28.fx"/>
+	<file src="fx/type29.fx"/>
+	<file src="fx/type30.fx"/>
+	<file src="fx/type31.fx"/>
+	<file src="fx/type32.fx"/>
+	<file src="fx/type33.fx"/>
+	<file src="fx/type34.fx"/>
+	<file src="fx/type35.fx"/>
+	<file src="fx/type36.fx"/>
+	<file src="fx/type37.fx"/>
+	<file src="fx/type38.fx"/>
+	<file src="fx/type39.fx"/>
+	<file src="fx/type40.fx"/>
+	<file src="fx/type41.fx"/>
+	<file src="fx/type42.fx"/>
+	<file src="fx/type43.fx"/>
+	<file src="fx/type44.fx"/>
+	<file src="fx/type45.fx"/>
+</meta>

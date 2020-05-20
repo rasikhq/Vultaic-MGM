@@ -1,0 +1,5 @@
+<meta>
+	<script src="v_HiddenObjectManager_client.lua" type="client" cache="false"/>
+	<file src="img/icon.png"/>
+	<oop>true</oop>
+</meta>

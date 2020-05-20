@@ -1,0 +1,4 @@
+<meta>
+	<script src="v_maptest.lua" type="server" />
+	<export function="onMapAccepted" http="true" />
+</meta>

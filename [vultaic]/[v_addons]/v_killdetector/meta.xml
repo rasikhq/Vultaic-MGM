@@ -1,0 +1,5 @@
+<meta>
+	<script src="v_Killdetector_server.lua" type="server" />
+	<script src="v_Killdetector_client.lua" type="client" cache="false"/>
+	<oop>true</oop>
+</meta>

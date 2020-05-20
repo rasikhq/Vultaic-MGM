@@ -1,0 +1,15 @@
+<meta>
+	<script src="tuning_server.lua" type="server"/>
+	<script src="tuning_client.lua" type="client" cache="false"/>
+	<script src="no_dirt.lua" type="client"/>
+	<script src="skins_server.lua" type="server"/>
+	<script src="colors_server.lua" type="server"/>
+	<script src="colors_client.lua" type="client" cache="false"/>
+	<script src="tints_server.lua" type="server"/>
+	<script src="tints_client.lua" type="client" cache="false"/>
+	<file src="fx/replace.fx"/>
+	<file src="fx/tint_type1.fx"/>
+	<file src="fx/tint_type2.fx"/>
+	<file src="fx/tint_type3.fx"/>
+	<export function="getTuningUpgrades" type="server"/>
+</meta>

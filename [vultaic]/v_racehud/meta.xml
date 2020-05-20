@@ -1,0 +1,18 @@
+<meta>
+	<script src="hud_client.lua" type="client" cache="false"/>
+	<file src="img/circle.png"/>
+	<file src="img/edge.png"/>
+	<file src="img/edge-time.png"/>
+	<file src="img/border.png"/>
+	<file src="img/current.png"/>
+	<file src="img/next.png"/>
+	<file src="img/time-h.png"/>
+	<file src="img/time-m.png"/>
+	<file src="img/missile.png"/>
+	<file src="img/countdown_3.png"/>
+	<file src="img/countdown_2.png"/>
+	<file src="img/countdown_1.png"/>
+	<file src="img/countdown_0.png"/>
+	<file src="sfx/countdown.wav"/>
+	<file src="sfx/countdown_go.wav"/>
+</meta>

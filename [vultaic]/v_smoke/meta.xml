@@ -1,0 +1,5 @@
+<meta>
+	<script src="client.lua" type="client" cache="false"/>
+	<file src="fx/nosmoke.fx"/>
+	<file src="fx/blink.png"/>
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<script src="v_carhide_client.lua" type="client" cache="false"/>
+	<file src="img/icon.png"/>
+	<export function="setClientCarhideEnabled" type="client"/>
+	<export function="setClientCarfadeMode" type="client"/>
+</meta>

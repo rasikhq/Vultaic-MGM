@@ -1,0 +1,8 @@
+<meta>
+	<script src="killmessages_client.lua" type="client" cache="false"/>
+	<file src="fx/mask.fx"/>
+	<file src="fx/tex_matrix.fx"/>
+	<file src="img/edge.png"/>
+	<file src="img/border.png"/>
+	<file src="img/circle.png"/>
+</meta>

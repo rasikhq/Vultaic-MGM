@@ -1,0 +1,19 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<script src="login_server.lua" type="server"/>
+	<script src="dxlib_client.lua" type="client" cache="false"/>
+	<script src="login_client.lua" type="client" cache="false"/>
+	<file src="img/dxlib/edge-input.png"/>
+	<file src="img/dxlib/edge-button.png"/>
+	<file src="img/dxlib/border-button.png"/>
+	<file src="img/dxlib/selector.png"/>
+	<file src="img/dxlib/arrow.png"/>
+	<file src="img/dxlib/check.png"/>
+	<file src="fx/txReplace.fx"/>
+	<file src="fx/mask.fx"/>
+	<file src="fx/tex_matrix.fx"/>
+	<file src="img/circle.png"/>
+	<file src="img/default-avatar.png"/>
+	<export function="getPlayerFromUsername" type="server"/>
+	<export function="getPlayerGroupID" type="server"/>
+</meta>

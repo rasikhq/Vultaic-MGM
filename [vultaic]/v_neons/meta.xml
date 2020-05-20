@@ -1,0 +1,35 @@
+<meta>
+	<min_mta_version client="1.5.3-9.11270" server="1.5.3-9.11270"/>
+	<script src="util_server.lua" type="server"/>
+	<script src="neons_server.lua" type="server"/>
+	<script src="neons_client.lua" type="client" cache="false"/>
+	<file src="meta.xml"/>
+	<export function="getNeonTextures" type="client"/>
+	<file src="fx/mta-helper.fx"/>
+	<file src="fx/type1.fx"/>
+	<file src="fx/type2.fx"/>
+	<file src="fx/type3.fx"/>
+	<file src="fx/type4.fx"/>
+	<file src="fx/type5.fx"/>
+	<file src="fx/type6.fx"/>
+	<file src="img/neon_1.png" neon="true"/>
+	<file src="img/neon_2.png" neon="true"/>
+	<file src="img/neon_3.png" neon="true"/>
+	<file src="img/neon_4.png" neon="true"/>
+	<file src="img/neon_5.png" neon="true"/>
+	<file src="img/neon_6.png" neon="true"/>
+	<file src="img/neon_7.png" neon="true"/>
+	<file src="img/neon_8.png" neon="true"/>
+	<file src="img/neon_9.png" neon="true"/>
+	<file src="img/neon_10.png" neon="true"/>
+	<file src="img/neon_11.png" neon="true"/>
+	<file src="img/neon_12.png" neon="true"/>
+	<file src="img/neon_13.png" neon="true"/>
+	<file src="img/neon_14.png" neon="true"/>
+	<file src="img/neon_15.png" neon="true"/>
+	<file src="img/neon_16.png" neon="true"/>
+	<file src="img/neon_17.png" neon="true"/>
+	<file src="img/neon_18.png" neon="true"/>
+	<file src="img/neon_19.png" neon="true"/>
+	<file src="img/neon_20.png" neon="true"/>
+</meta>

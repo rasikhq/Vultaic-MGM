@@ -1,0 +1,6 @@
+<meta>
+	<script src="v_DecoHider_server.lua" type="server" />
+	<script src="v_DecoHider_client.lua" type="client" cache="false"/>
+	<file src="img/icon.png"/>
+	<oop>true</oop>
+</meta>

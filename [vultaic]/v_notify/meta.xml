@@ -1,0 +1,6 @@
+<meta>
+	<script src="notify_client.lua" type="client" cache="false"/>
+	<file src="img/edge.png"/>
+	<file src="img/icons/default.png"/>
+	<file src="img/icons/interface.png"/>
+</meta>

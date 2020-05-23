@@ -185,7 +185,7 @@ function()
 end)
 
 function loadDetails()
-	local path = "details"
+	local path = "@details"
 	local file = fileExists(path) and fileOpen(path) or nil
 	local details = nil
 	if file then
@@ -193,7 +193,7 @@ function loadDetails()
 		fileClose(file)
 	end
 	if type(details) == "table" then
-		local username, password = details.username, details.password
+		local username, password = details.username, base64Decode(details.password)
 		if username and password then
 			items["input_username"].text = tostring(username)
 			items["input_password"].text = tostring(password)
@@ -205,17 +205,17 @@ end
 function saveDetails(username, password)
 	if username and password then
 		resetDetails()
-		local path = "details"
+		local path = "@details"
 		local file = fileCreate(path)
 		if file then
-			fileWrite(file, toJSON({username = username, password = password}))
+			fileWrite(file, toJSON({username = username, password = base64Encode(password)}))
 			fileClose(file)
 		end
 	end
 end
 
 function resetDetails()
-	local path = "details"
+	local path = "@details"
 	if fileExists(path) then
 		fileDelete(path)
 	end

